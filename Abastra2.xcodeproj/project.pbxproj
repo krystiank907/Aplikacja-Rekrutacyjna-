@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972BB4901E72B9B5000C796B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BB48F1E72B9B5000C796B /* AppDelegate.swift */; };
+		972BB4921E72B9B5000C796B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BB4911E72B9B5000C796B /* FirstViewController.swift */; };
+		972BB4941E72B9B5000C796B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BB4931E72B9B5000C796B /* SecondViewController.swift */; };
+		972BB4971E72B9B5000C796B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972BB4951E72B9B5000C796B /* Main.storyboard */; };
+		972BB4991E72B9B5000C796B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972BB4981E72B9B5000C796B /* Assets.xcassets */; };
+		972BB49C1E72B9B5000C796B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972BB49A1E72B9B5000C796B /* LaunchScreen.storyboard */; };
+		972BB4A71E72B9B5000C796B /* Abastra2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BB4A61E72B9B5000C796B /* Abastra2Tests.swift */; };
+		972BB4B21E72B9B5000C796B /* Abastra2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BB4B11E72B9B5000C796B /* Abastra2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972BB4A31E72B9B5000C796B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972BB4841E72B9B5000C796B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972BB48B1E72B9B5000C796B;
+			remoteInfo = Abastra2;
+		};
+		972BB4AE1E72B9B5000C796B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972BB4841E72B9B5000C796B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972BB48B1E72B9B5000C796B;
+			remoteInfo = Abastra2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		972BB48C1E72B9B5000C796B /* Abastra2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abastra2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972BB48F1E72B9B5000C796B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		972BB4911E72B9B5000C796B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		972BB4931E72B9B5000C796B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		972BB4961E72B9B5000C796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		972BB4981E72B9B5000C796B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972BB49B1E72B9B5000C796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		972BB49D1E72B9B5000C796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972BB4A21E72B9B5000C796B /* Abastra2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Abastra2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972BB4A61E72B9B5000C796B /* Abastra2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abastra2Tests.swift; sourceTree = "<group>"; };
+		972BB4A81E72B9B5000C796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972BB4AD1E72B9B5000C796B /* Abastra2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Abastra2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972BB4B11E72B9B5000C796B /* Abastra2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abastra2UITests.swift; sourceTree = "<group>"; };
+		972BB4B31E72B9B5000C796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972BB4891E72B9B5000C796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB49F1E72B9B5000C796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB4AA1E72B9B5000C796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972BB4831E72B9B5000C796B = {
+			isa = PBXGroup;
+			children = (
+				972BB48E1E72B9B5000C796B /* Abastra2 */,
+				972BB4A51E72B9B5000C796B /* Abastra2Tests */,
+				972BB4B01E72B9B5000C796B /* Abastra2UITests */,
+				972BB48D1E72B9B5000C796B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972BB48D1E72B9B5000C796B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972BB48C1E72B9B5000C796B /* Abastra2.app */,
+				972BB4A21E72B9B5000C796B /* Abastra2Tests.xctest */,
+				972BB4AD1E72B9B5000C796B /* Abastra2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972BB48E1E72B9B5000C796B /* Abastra2 */ = {
+			isa = PBXGroup;
+			children = (
+				972BB48F1E72B9B5000C796B /* AppDelegate.swift */,
+				972BB4911E72B9B5000C796B /* FirstViewController.swift */,
+				972BB4931E72B9B5000C796B /* SecondViewController.swift */,
+				972BB4951E72B9B5000C796B /* Main.storyboard */,
+				972BB4981E72B9B5000C796B /* Assets.xcassets */,
+				972BB49A1E72B9B5000C796B /* LaunchScreen.storyboard */,
+				972BB49D1E72B9B5000C796B /* Info.plist */,
+			);
+			path = Abastra2;
+			sourceTree = "<group>";
+		};
+		972BB4A51E72B9B5000C796B /* Abastra2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				972BB4A61E72B9B5000C796B /* Abastra2Tests.swift */,
+				972BB4A81E72B9B5000C796B /* Info.plist */,
+			);
+			path = Abastra2Tests;
+			sourceTree = "<group>";
+		};
+		972BB4B01E72B9B5000C796B /* Abastra2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				972BB4B11E72B9B5000C796B /* Abastra2UITests.swift */,
+				972BB4B31E72B9B5000C796B /* Info.plist */,
+			);
+			path = Abastra2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972BB48B1E72B9B5000C796B /* Abastra2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972BB4B61E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2" */;
+			buildPhases = (
+				972BB4881E72B9B5000C796B /* Sources */,
+				972BB4891E72B9B5000C796B /* Frameworks */,
+				972BB48A1E72B9B5000C796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abastra2;
+			productName = Abastra2;
+			productReference = 972BB48C1E72B9B5000C796B /* Abastra2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972BB4A11E72B9B5000C796B /* Abastra2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972BB4B91E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2Tests" */;
+			buildPhases = (
+				972BB49E1E72B9B5000C796B /* Sources */,
+				972BB49F1E72B9B5000C796B /* Frameworks */,
+				972BB4A01E72B9B5000C796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972BB4A41E72B9B5000C796B /* PBXTargetDependency */,
+			);
+			name = Abastra2Tests;
+			productName = Abastra2Tests;
+			productReference = 972BB4A21E72B9B5000C796B /* Abastra2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		972BB4AC1E72B9B5000C796B /* Abastra2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972BB4BC1E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2UITests" */;
+			buildPhases = (
+				972BB4A91E72B9B5000C796B /* Sources */,
+				972BB4AA1E72B9B5000C796B /* Frameworks */,
+				972BB4AB1E72B9B5000C796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972BB4AF1E72B9B5000C796B /* PBXTargetDependency */,
+			);
+			name = Abastra2UITests;
+			productName = Abastra2UITests;
+			productReference = 972BB4AD1E72B9B5000C796B /* Abastra2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972BB4841E72B9B5000C796B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Krystian Kulawiak";
+				TargetAttributes = {
+					972BB48B1E72B9B5000C796B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27V4B7692Z;
+						ProvisioningStyle = Automatic;
+					};
+					972BB4A11E72B9B5000C796B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27V4B7692Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 972BB48B1E72B9B5000C796B;
+					};
+					972BB4AC1E72B9B5000C796B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27V4B7692Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 972BB48B1E72B9B5000C796B;
+					};
+				};
+			};
+			buildConfigurationList = 972BB4871E72B9B5000C796B /* Build configuration list for PBXProject "Abastra2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972BB4831E72B9B5000C796B;
+			productRefGroup = 972BB48D1E72B9B5000C796B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972BB48B1E72B9B5000C796B /* Abastra2 */,
+				972BB4A11E72B9B5000C796B /* Abastra2Tests */,
+				972BB4AC1E72B9B5000C796B /* Abastra2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972BB48A1E72B9B5000C796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972BB49C1E72B9B5000C796B /* LaunchScreen.storyboard in Resources */,
+				972BB4991E72B9B5000C796B /* Assets.xcassets in Resources */,
+				972BB4971E72B9B5000C796B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB4A01E72B9B5000C796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB4AB1E72B9B5000C796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972BB4881E72B9B5000C796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972BB4941E72B9B5000C796B /* SecondViewController.swift in Sources */,
+				972BB4901E72B9B5000C796B /* AppDelegate.swift in Sources */,
+				972BB4921E72B9B5000C796B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB49E1E72B9B5000C796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972BB4A71E72B9B5000C796B /* Abastra2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972BB4A91E72B9B5000C796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972BB4B21E72B9B5000C796B /* Abastra2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972BB4A41E72B9B5000C796B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972BB48B1E72B9B5000C796B /* Abastra2 */;
+			targetProxy = 972BB4A31E72B9B5000C796B /* PBXContainerItemProxy */;
+		};
+		972BB4AF1E72B9B5000C796B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972BB48B1E72B9B5000C796B /* Abastra2 */;
+			targetProxy = 972BB4AE1E72B9B5000C796B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972BB4951E72B9B5000C796B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972BB4961E72B9B5000C796B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		972BB49A1E72B9B5000C796B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972BB49B1E72B9B5000C796B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972BB4B41E72B9B5000C796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		972BB4B51E72B9B5000C796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972BB4B71E72B9B5000C796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		972BB4B81E72B9B5000C796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		972BB4BA1E72B9B5000C796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abastra2.app/Abastra2";
+			};
+			name = Debug;
+		};
+		972BB4BB1E72B9B5000C796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abastra2.app/Abastra2";
+			};
+			name = Release;
+		};
+		972BB4BD1E72B9B5000C796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Abastra2;
+			};
+			name = Debug;
+		};
+		972BB4BE1E72B9B5000C796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 27V4B7692Z;
+				INFOPLIST_FILE = Abastra2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Krystian.Abastra2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Abastra2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972BB4871E72B9B5000C796B /* Build configuration list for PBXProject "Abastra2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972BB4B41E72B9B5000C796B /* Debug */,
+				972BB4B51E72B9B5000C796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972BB4B61E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972BB4B71E72B9B5000C796B /* Debug */,
+				972BB4B81E72B9B5000C796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972BB4B91E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972BB4BA1E72B9B5000C796B /* Debug */,
+				972BB4BB1E72B9B5000C796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972BB4BC1E72B9B5000C796B /* Build configuration list for PBXNativeTarget "Abastra2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972BB4BD1E72B9B5000C796B /* Debug */,
+				972BB4BE1E72B9B5000C796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972BB4841E72B9B5000C796B /* Project object */;
+}
